@@ -1,9 +1,9 @@
-import cellphoneIcon from "../assets/cellphone.svg"
-import mapsIcon from "../assets/location.svg"
-import emailIcon from "../assets/email.svg"
-import calendarIcon from "../assets/calendar.svg"
-import linkedinIcon from "../assets/linkedin.svg"
-import githubIcon from "../assets/github.svg"
+import cellphoneIcon from "../assets/contact/cellphone.svg"
+import mapsIcon from "../assets/contact/location.svg"
+import emailIcon from "../assets/contact/email.svg"
+import calendarIcon from "../assets/contact/calendar.svg"
+import linkedinIcon from "../assets/contact/linkedin.svg"
+import githubIcon from "../assets/contact/github.svg"
 
 import { SectionTitle } from "./SectionTitle"
 
