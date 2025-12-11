@@ -29,7 +29,7 @@ export function HardSkills() {
             <div className="pt-4.5 grid gap-8">
                 <div className="pt-2">
                     <h4 className="text-xl font-semibold border-l-6 border-[#0A92AA] pl-2">Linguagens de Programação e Marcação</h4>
-                    <ul className="pt-6 lg:pl-12 grid gap-2.5 md:grid-cols-2 lg:grid-cols-4">
+                    <ul className="pt-4 lg:pl-12 grid gap-2.5 md:grid-cols-2 lg:grid-cols-4">
                         <li className="bg-[#EFE5EA] p-2 rounded-4xl w-auto px-6 flex gap-2 justify-center">
                             <img className="w-6" src={html} alt="Ícone do HTML" />
                             <p className="font-bold">HTML</p>
