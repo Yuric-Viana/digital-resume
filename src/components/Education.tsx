@@ -1,6 +1,6 @@
 import { SectionTitle } from "./SectionTitle";
 
-export function About() {
+export function Education() {
     return (
         <div>
             <SectionTitle title="Formação acadêmica"/>
