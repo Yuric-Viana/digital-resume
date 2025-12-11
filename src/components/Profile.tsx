@@ -4,7 +4,7 @@ export function Profile() {
     return (
         <div className="w-full flex flex-col justify-center items-center md:py-8">
 
-            <div className="w-40 h-40 rounded-full bg-[#1d5c6e] p-2 md:p-3 flex items-center justify-center">
+            <div className="w-40 h-40 rounded-full bg-[#1d5c6e] p-3 flex items-center justify-center">
                 <div className="w-full h-full rounded-full bg-[#0a3a4a] p-1 flex items-center justify-center">
                     <img
                         src={profilePhoto}
