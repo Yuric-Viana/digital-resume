@@ -8,7 +8,7 @@ import githubIcon from "../assets/github.svg"
 export function Contact() {
     return (
         <div>
-            <h2 className="uppercase text-xl md:text-2xl text-[#c3d0d5] tracking-widest border-b-2 border-[#2D5166] pb-1">Contato</h2>
+            <h2 className="uppercase text-xl md:text-2xl text-white tracking-widest border-b-2 border-[#2D5166] pb-1">Contato</h2>
 
             <ul className="pt-4.5 flex flex-col gap-2">
                 <li className="flex gap-2 items-center">
