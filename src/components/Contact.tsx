@@ -5,10 +5,12 @@ import calendarIcon from "../assets/calendar.svg"
 import linkedinIcon from "../assets/linkedin.svg"
 import githubIcon from "../assets/github.svg"
 
+import { SectionTitle } from "./SectionTitle"
+
 export function Contact() {
     return (
         <div>
-            <h2 className="uppercase text-xl md:text-2xl text-white tracking-widest border-b-2 border-[#2D5166] pb-1">Contato</h2>
+            <SectionTitle title="Contato" />
 
             <ul className="pt-4.5 flex flex-col gap-2">
                 <li className="flex gap-2 items-center">
