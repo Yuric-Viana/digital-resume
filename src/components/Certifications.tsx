@@ -7,8 +7,8 @@ export function Certifications() {
         <div>
             <SectionTitle color="[#0D2139]" borderColor="#0D2139" weight="bold" size={4} title="Certificações" />
 
-            <div className="pt-4 grid gap-2.5 w-full lg:grid-cols-2">
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+            <div className="pt-4 grid gap-4.5 w-full lg:grid-cols-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -18,7 +18,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -28,7 +28,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -38,7 +38,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -48,7 +48,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -58,7 +58,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -68,7 +68,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -78,7 +78,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -88,7 +88,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -98,7 +98,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -108,7 +108,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -118,7 +118,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -128,7 +128,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -138,7 +138,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>
@@ -148,7 +148,7 @@ export function Certifications() {
                     </div>
                 </div>
 
-                <div className="flex gap-2.5 items-start bg-[#EFE5EA] rounded-2xl p-2">
+                <div className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2">
                     <img src={certificate} alt="Ícone de certificado" />
                     <div className="">
                         <h5>

@@ -12,37 +12,23 @@
 @theme {
   --default-font-family: 'Inter', sans-serif;
 }
-.card-fill-effect-right,
-.card-fill-effect-left {
+.card-fill-effect {
   position: relative;
   overflow: hidden;
   z-index: 10;
 }
-
-.card-fill-effect-right::before {
+.card-fill-effect::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
-  width: 0; 
+  width: 0;
   height: 100%;
-  z-index: -1; 
-  background-color: #035a90; 
-  transition: width 0.4s ease-in-out; 
+  z-index: -1;
+  background-color: #035a90;
+  transition: width 0.4s ease-in-out;
 }
 
-.card-fill-effect-left::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0; 
-  height: 100%;
-  z-index: -1; 
-  background-color: #035a90; 
-  transition: width 0.4s ease-in-out; 
-}
-.card-fill-effect-right:hover::before,
-.card-fill-effect-left:hover::before {
-  width: 100%; 
+.card-fill-effect:hover::before {
+  width: 100%;
 }
