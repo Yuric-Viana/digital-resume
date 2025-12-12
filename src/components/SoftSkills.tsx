@@ -29,7 +29,7 @@ export function SoftSkills() {
                 <SkillBar name="Organização" percentage={88} />
                 <SkillBar name="Ética" percentage={100} />
                 <SkillBar name="Liderança" percentage={75} />
-                <SkillBar name="Trabalho em equipe" percentage={75} />
+                <SkillBar name="Trabalho em equipe" percentage={85} />
 
             </div>
         </div>

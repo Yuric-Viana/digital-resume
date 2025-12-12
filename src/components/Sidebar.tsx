@@ -2,6 +2,7 @@ import { Profile } from "./Profile"
 import { Contact } from "./Contact"
 import { Education } from "./Education"
 import { SoftSkills } from "./SoftSkills"
+import { DiverseExperiences } from "./DiverseExperiences"
 
 export function Sidebar() {
     return (
@@ -10,6 +11,7 @@ export function Sidebar() {
             <Contact />
             <Education />
             <SoftSkills />
+            <DiverseExperiences />
         </aside>
     )
 }

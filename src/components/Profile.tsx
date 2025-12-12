@@ -15,8 +15,7 @@ export function Profile() {
             </div>
 
             <h1 className="font-bold text-center text-2xl text-white pt-4">Yuri Cardoso Viana</h1>
-            <strong className="text-[#d3e4ed] text-center text-base font-light tracking-wide
-">Engenherio de Software em formação</strong>
+            <strong className="text-[#d3e4ed] text-center text-base font-light tracking-wide">Engenherio de Software em formação</strong>
         </div>  
     )
 }
