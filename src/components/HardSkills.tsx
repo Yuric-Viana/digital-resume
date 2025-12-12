@@ -18,7 +18,7 @@ import database from "../assets/tools-build/database.png"
 import builder from "../assets/tools-build/webpack.svg"
 import node from "../assets/tools-build/nodejs.svg"
 import docker from "../assets/tools-build/docker.svg"
-
+import vite from "../assets/tools-build/vitejs.svg"
 
 import { SectionTitle } from "./SectionTitle";
 
@@ -113,6 +113,11 @@ export function HardSkills() {
                         <li className="bg-[#EFE5EA] p-2 rounded-4xl w-auto px-6 flex gap-2 justify-center">
                             <img className="w-6" src={builder} alt="Ícone do Webpack" />
                             <p className="font-bold">Webpack</p>
+                        </li>
+
+                        <li className="bg-[#EFE5EA] p-2 rounded-4xl w-auto px-6 flex gap-2 justify-center">
+                            <img className="w-6" src={vite} alt="Ícone do Vite" />
+                            <p className="font-bold">Vite</p>
                         </li>
                         
                         <li className="bg-[#EFE5EA] p-2 rounded-4xl w-auto px-6 flex gap-2 justify-center">
