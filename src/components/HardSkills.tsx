@@ -5,6 +5,7 @@ import html from "../assets/languages/html.svg"
 
 import react from "../assets/frameworks/react.svg"
 import express from "../assets/frameworks/express.svg"
+import tailwind from "../assets/frameworks/tailwind.svg"
 import prisma from "../assets/frameworks/prisma.svg"
 import jest from "../assets/frameworks/jest.svg"
 
@@ -55,6 +56,11 @@ export function HardSkills() {
                         <li className="bg-[#EFE5EA] p-2 rounded-4xl w-auto px-6 flex gap-2 justify-center">
                             <img className="w-6" src={express} alt="Ícone do Express" />
                             <p className="font-bold">Express</p>
+                        </li>
+
+                        <li className="bg-[#EFE5EA] p-2 rounded-4xl w-auto px-6 flex gap-2 justify-center">
+                            <img className="w-6" src={tailwind} alt="Ícone do Tailwind" />
+                            <p className="font-bold">Tailwind</p>
                         </li>
 
                         <li className="bg-[#EFE5EA] p-2 rounded-4xl w-auto px-6 flex gap-2 justify-center">
