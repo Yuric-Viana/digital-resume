@@ -1,4 +1,4 @@
-import { Certifications } from "./Certifications";
+import { CertificationsSessions } from "./Certifications";
 import { HardSkillsSessions } from "../Sessions/HardSkillsSession";
 import { ProfessionalSummary } from "./ProfessionalSummary";
 
@@ -7,7 +7,7 @@ export function Main() {
         <div className="flex flex-col flex-3 gap-10 px-6 py-8">
             <ProfessionalSummary />
             <HardSkillsSessions />
-            <Certifications />
+            <CertificationsSessions />
         </div>
     )
 }
