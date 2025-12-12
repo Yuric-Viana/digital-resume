@@ -5,7 +5,7 @@ import calendarIcon from "../assets/contact/calendar.svg"
 import linkedinIcon from "../assets/contact/linkedin.svg"
 import githubIcon from "../assets/contact/github.svg"
 
-import { SectionTitle } from "./SectionTitle"
+import { SectionTitle } from "./SectionTitleComponent"
 
 export function Contact() {
     return (

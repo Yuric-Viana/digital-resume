@@ -2,7 +2,7 @@ import cutlery from "../assets/experiences/cutlery.svg"
 import coin from "../assets/experiences/coin.svg"
 import truck from "../assets/experiences/truck.svg"
 
-import { SectionTitle } from "./SectionTitle";
+import { SectionTitle } from "./SectionTitleComponent";
 
 export function DiverseExperiences() {
     return (

@@ -1,6 +1,6 @@
-import { CertificationsComponent, type CertificationItem } from "./CertificationsComponent" 
+import { CertificationsComponent, type CertificationItem } from "../components/CertificationsComponent" 
 
-import { SectionTitle } from "./SectionTitle"
+import { SectionTitle } from "../components/SectionTitleComponent"
 
 const certificationsData: CertificationItem[] = [
     { title: "Git e GitHub", description: "compartilhando e colaborando em projetos", data: "Alura – Abril 2025" },

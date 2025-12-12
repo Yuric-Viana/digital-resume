@@ -20,7 +20,7 @@ import node from "../assets/tools-build/nodejs.svg"
 import docker from "../assets/tools-build/docker.svg"
 import vite from "../assets/tools-build/vitejs.svg"
 
-import { SectionTitle } from "../components/SectionTitle";
+import { SectionTitle } from "../components/SectionTitleComponent";
 import { HardSkillsComponent, type SkillItem } from "../components/HardSkillsComponent"
 
 const languagesData: SkillItem[] = [
