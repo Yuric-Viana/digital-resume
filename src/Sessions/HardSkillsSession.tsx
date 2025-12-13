@@ -20,8 +20,8 @@ import node from "../assets/tools-build/nodejs.svg"
 import docker from "../assets/tools-build/docker.svg"
 import vite from "../assets/tools-build/vitejs.svg"
 
-import { SectionTitleComponent} from "../components/SectionTitleComponent";
-import { HardSkillsComponent, type SkillItem } from "../components/HardSkillsComponent"
+import { SectionTitle} from "../components/SectionTitle";
+import { HardSkills, type SkillItem } from "../components/HardSkills"
 
 const languagesData: SkillItem[] = [
     { name: "HTML", iconSrc: html, iconAlt: "Ícone do HTML" },
@@ -56,14 +56,14 @@ const toolsBuildData: SkillItem[] = [
 export function HardSkillsSessions() {
     return (
         <div>
-            <SectionTitleComponent color="[#0D2139]" borderColor="#0D2139" weight="bold" size={4} title="Habilidades Técnicas"/>
+            <SectionTitle color="[#0D2139]" borderColor="#0D2139" weight="bold" size={4} title="Habilidades Técnicas"/>
             
             <div className="pt-4.5 grid gap-8">
 
-                <HardSkillsComponent title="Linguagens de Programação e Marcação" skills={languagesData}/>
-                <HardSkillsComponent title="Framework e Bibliotecas" skills={frameworksData}/>
-                <HardSkillsComponent title="Ferramentas e IDEs" skills={toolsData}/>
-                <HardSkillsComponent title="Ferramentas de Build, Runtime e Virtualização" skills={toolsBuildData}/>
+                <HardSkills title="Linguagens de Programação e Marcação" skills={languagesData}/>
+                <HardSkills title="Framework e Bibliotecas" skills={frameworksData}/>
+                <HardSkills title="Ferramentas e IDEs" skills={toolsData}/>
+                <HardSkills title="Ferramentas de Build, Runtime e Virtualização" skills={toolsBuildData}/>
             </div>
         </div>
     )

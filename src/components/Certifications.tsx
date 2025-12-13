@@ -6,11 +6,11 @@ export interface CertificationItem {
     data: string
 }
 
-interface CertificationsComponentProps {
+interface CertificationsProps {
     certifications: CertificationItem[]
 }
 
-export function CertificationsComponent({ certifications }: CertificationsComponentProps) {
+export function Certifications({ certifications }: CertificationsProps) {
     return (
         <>
             {certifications.map((item, index) => (

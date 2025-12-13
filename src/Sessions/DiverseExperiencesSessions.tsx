@@ -2,8 +2,8 @@ import cutlery from "../assets/experiences/cutlery.svg"
 import coin from "../assets/experiences/coin.svg"
 import truck from "../assets/experiences/truck.svg"
 
-import { SectionTitleComponent} from "../components/SectionTitleComponent";
-import { ExperiencesComponent, type ExperiencesItem } from "../components/ExperiencesComponent";
+import { SectionTitle} from "../components/SectionTitle";
+import { Experiences, type ExperiencesItem } from "../components/Experiences";
 
 const experiencesData: ExperiencesItem[] = [
     { title: "Garçom", alt: "Ícone de talheres", src: cutlery },
@@ -14,10 +14,10 @@ const experiencesData: ExperiencesItem[] = [
 export function DiverseExperiencesSessions() {
     return (
         <div>
-            <SectionTitleComponent title="Experiências diversas" />
+            <SectionTitle title="Experiências diversas" />
 
             <ul className="pt-4.5 flex flex-col gap-2">
-                <ExperiencesComponent experiences={experiencesData}/>
+                <Experiences experiences={experiencesData}/>
             </ul>
         </div>
     )

@@ -8,7 +8,7 @@ interface ExperiencesProps {
     experiences: ExperiencesItem[]
 }
 
-export function ExperiencesComponent({ experiences }: ExperiencesProps) {
+export function Experiences({ experiences }: ExperiencesProps) {
     return (
         <>
             {experiences.map((experience, index) => (

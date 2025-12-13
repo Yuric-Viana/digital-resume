@@ -44,12 +44,12 @@ O projeto será iniciado localmente e estará acessível, geralmente, em `http:/
 
 ## 💡 Estrutura do Projeto
 
-O currículo é modularizado em componentes React para facilitar a manutenção e a reutilização do código:
+O currículo é modularizado em es React para facilitar a manutenção e a reutilização do código:
 
-* `src/App.jsx`: Componente principal que define o layout geral (Sidebar e Main Content).
-* `src/components/Sidebar.jsx`: Contém a seção de barra lateral (Formação, Contato, Competências, Experiências).
-* `src/components/MainContent.jsx`: Contém o conteúdo principal (Habilidades Técnicas, Certificações, Sobre mim).
-* `src/components/*`: Componentes menores e específicos, como `Education`, `SoftSkills`, `HardSkills`, etc.
+* `src/App.jsx`: e principal que define o layout geral (Sidebar e Main Content).
+* `src/s/Sidebar.jsx`: Contém a seção de barra lateral (Formação, Contato, Competências, Experiências).
+* `src/s/MainContent.jsx`: Contém o conteúdo principal (Habilidades Técnicas, Certificações, Sobre mim).
+* `src/s/*`: es menores e específicos, como `Education`, `SoftSkills`, `HardSkills`, etc.
 
 ## 🎨 Design e Layout
 

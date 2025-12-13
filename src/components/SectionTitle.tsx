@@ -6,7 +6,7 @@ type Props = {
     size?: number
 }
 
-export function SectionTitleComponent({ title, color = "white", weight = "default", borderColor = "#2D5166", size = 2 }: Props) {
+export function SectionTitle({ title, color = "white", weight = "default", borderColor = "#2D5166", size = 2 }: Props) {
     return (
         <div>
             <h2

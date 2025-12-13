@@ -1,9 +1,9 @@
-import { SectionTitleComponent} from "../components/SectionTitleComponent";
+import { SectionTitle} from "../components/SectionTitle";
 
 export function Education() {
     return (
         <div>
-            <SectionTitleComponent title="Formação acadêmica"/>
+            <SectionTitle title="Formação acadêmica"/>
 
             <h3 className="flex font-bold text-[#d3e4ed] pt-4.5 ">Engenharia de Software - PUC Minas (Coração Eucarístico)</h3>
             <strong className="text-[#d3e4ed]">2024 — 2028</strong>

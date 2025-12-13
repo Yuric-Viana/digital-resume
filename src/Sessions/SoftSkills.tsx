@@ -1,4 +1,4 @@
-import { SectionTitleComponent} from "../components/SectionTitleComponent";
+import { SectionTitle} from "../components/SectionTitle";
 
 type Props = {
     name: string
@@ -22,7 +22,7 @@ export function SoftSkills() {
 
     return (
         <div>
-            <SectionTitleComponent title="Compentências" />
+            <SectionTitle title="Compentências" />
 
             <div>
                 <SkillBar name="Comunicação" percentage={90} />

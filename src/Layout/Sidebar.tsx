@@ -1,8 +1,8 @@
-import { Profile } from "../Sessions/Profile"
-import { ContactSessions } from "../Sessions/ContactSessions"
-import { Education } from "../Sessions/Education"
-import { SoftSkills } from "../Sessions/SoftSkills"
-import { DiverseExperiencesSessions } from "../Sessions/DiverseExperiencesSessions"
+import { Profile } from "../componentsessions/Profile"
+import { ContactSessions } from "../componentsessions/ContactSessions"
+import { Education } from "../componentsessions/Education"
+import { SoftSkills } from "../componentsessions/SoftSkills"
+import { DiverseExperiencesSessions } from "../componentsessions/DiverseExperiencesSessions"
 
 export function Sidebar() {
     return (

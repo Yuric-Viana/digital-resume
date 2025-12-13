@@ -4,11 +4,11 @@ export interface ContactItem {
     description: string
 }
 
-interface ContactComponentProps {
+interface ContactProps {
     contact: ContactItem[]
 }
 
-export function ContactComponent({ contact }: ContactComponentProps) {
+export function Contact({ contact }: ContactProps) {
     return (
         <>
             {

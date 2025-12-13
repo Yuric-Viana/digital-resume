@@ -9,7 +9,7 @@ interface HardSkillsProps {
     skills: SkillItem[]
 }
 
-export function HardSkillsComponent({ skills, title }: HardSkillsProps) {
+export function HardSkills({ skills, title }: HardSkillsProps) {
     return (
         <div className="pt-2">
             <h4 className="text-xl font-semibold border-l-6 border-[#0A92AA] pl-2">{title}</h4>

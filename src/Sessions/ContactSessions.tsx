@@ -7,8 +7,8 @@ import calendarIcon from "../assets/contact/calendar.svg"
 import linkedinIcon from "../assets/contact/linkedin.svg"
 import githubIcon from "../assets/contact/github.svg"
 
-import { SectionTitleComponent} from "../components/SectionTitleComponent"
-import { ContactComponent, type ContactItem } from "../components/ContactComponent" 
+import { SectionTitle} from "../components/SectionTitle"
+import { Contact, type ContactItem } from "../components/Contact" 
 
 const contactData: ContactItem[] = [
     { 
@@ -46,10 +46,10 @@ const contactData: ContactItem[] = [
 export function ContactSessions() {
     return (
         <div>
-            <SectionTitleComponent title="Contato" />
+            <SectionTitle title="Contato" />
 
             <ul className="pt-4.5 flex flex-col gap-2">
-                <ContactComponent contact={contactData} />
+                <Contact contact={contactData} />
             </ul>
         </div>
     )

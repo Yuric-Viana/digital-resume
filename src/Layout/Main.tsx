@@ -1,6 +1,6 @@
-import { CertificationsSessions } from "../Sessions/CertificationsSessions";
-import { HardSkillsSessions } from "../Sessions/HardSkillsSession";
-import { ProfessionalSummary } from "../Sessions/ProfessionalSummary";
+import { CertificationsSessions } from "../componentsessions/CertificationsSessions";
+import { HardSkillsSessions } from "../componentsessions/HardSkillsSession";
+import { ProfessionalSummary } from "../componentsessions/ProfessionalSummary";
 
 export function Main() {
     return (
