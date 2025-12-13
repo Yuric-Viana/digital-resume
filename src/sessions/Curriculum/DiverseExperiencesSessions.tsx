@@ -1,6 +1,6 @@
-import cutlery from "../assets/experiences/cutlery.svg"
-import coin from "../assets/experiences/coin.svg"
-import truck from "../assets/experiences/truck.svg"
+import cutlery from "../../assets/experiences/cutlery.svg"
+import coin from "../../assets/experiences/coin.svg"
+import truck from "../../assets/experiences/truck.svg"
 
 import { SectionTitle} from "../../components/SectionTitle";
 import { Experiences, type ExperiencesItem } from "../../components/Experiences";

@@ -1,11 +1,11 @@
 // ContactSessions.tsx
 
-import cellphoneIcon from "../assets/contact/cellphone.svg"
-import mapsIcon from "../assets/contact/location.svg"
-import emailIcon from "../assets/contact/email.svg"
-import calendarIcon from "../assets/contact/calendar.svg"
-import linkedinIcon from "../assets/contact/linkedin.svg"
-import githubIcon from "../assets/contact/github.svg"
+import cellphoneIcon from "../../assets/contact/cellphone.svg"
+import mapsIcon from "../../assets/contact/location.svg"
+import emailIcon from "../../assets/contact/email.svg"
+import calendarIcon from "../../assets/contact/calendar.svg"
+import linkedinIcon from "../../assets/contact/linkedin.svg"
+import githubIcon from "../../assets/contact/github.svg"
 
 import { SectionTitle} from "../../components/SectionTitle"
 import { Contact, type ContactItem } from "../../components/Contact" 

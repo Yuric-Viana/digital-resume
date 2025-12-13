@@ -1,4 +1,4 @@
-import profilePhoto from "../assets/profile.jpg"
+import profilePhoto from "../../assets/profile.jpg"
 
 export function ProfileSessions() {
     return (

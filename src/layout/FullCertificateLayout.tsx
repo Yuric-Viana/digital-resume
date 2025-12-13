@@ -1,6 +1,6 @@
-import { CertificateMain } from "../components/Main/CertificateMain";
 import { SectionTitle } from "../components/SectionTitle";
-import { CertificateSidebar } from "../components/Sidebar/CertificateSidebar";
+import { CertificateSessions } from "../sessions/Certificate/CertificateSessions";
+import { MoreCertificationsSessions } from "../sessions/Certificate/MoreCertificationsSessions";
 
 export function FullCertificateLayout() {
     return (
@@ -9,8 +9,8 @@ export function FullCertificateLayout() {
             <p className="text-4xl text-[#4A5F76] tracking-widest">Detalhes do certificado</p>
 
             <div>
-                <CertificateSidebar />
-                <CertificateMain />
+                <CertificateSessions />
+                <MoreCertificationsSessions />
             </div>
         </div>
     )
