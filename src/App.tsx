@@ -1,11 +1,5 @@
-import { Main } from "./Layout/Main"
-import { Sidebar } from "./Layout/Sidebar"
+import { AppRoutes } from "./routes/AppRoutes"
 
 export default function App() {
-  return (
-    <div className="md:flex">
-      <Sidebar />
-      <Main />
-    </div>
-  )
+  return <AppRoutes />
 }

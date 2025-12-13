@@ -20,8 +20,8 @@ import node from "../assets/tools-build/nodejs.svg"
 import docker from "../assets/tools-build/docker.svg"
 import vite from "../assets/tools-build/vitejs.svg"
 
-import { SectionTitle} from "../components/SectionTitle";
-import { HardSkills, type SkillItem } from "../components/HardSkills"
+import { SectionTitle} from "../../components/SectionTitle";
+import { HardSkills, type SkillItem } from "../../components/HardSkills"
 
 const languagesData: SkillItem[] = [
     { name: "HTML", iconSrc: html, iconAlt: "Ícone do HTML" },
@@ -56,7 +56,7 @@ const toolsBuildData: SkillItem[] = [
 export function HardSkillsSessions() {
     return (
         <div>
-            <SectionTitle color="[#0D2139]" borderColor="#0D2139" weight="bold" size={4} title="Habilidades Técnicas"/>
+            <SectionTitle color="text-[#0D2139]" borderColor="#0D2139" weight="bold" size={4} title="Habilidades Técnicas"/>
             
             <div className="pt-4.5 grid gap-8">
 

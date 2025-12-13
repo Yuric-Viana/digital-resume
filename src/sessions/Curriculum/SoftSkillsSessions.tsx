@@ -1,4 +1,4 @@
-import { SectionTitle} from "../components/SectionTitle";
+import { SectionTitle} from "../../components/SectionTitle";
 
 type Props = {
     name: string
@@ -18,7 +18,7 @@ const SkillBar = ({ name, percentage, color = "bg-yellow-500" }: Props) => {
     )
 }
 
-export function SoftSkills() {
+export function SoftSkillsSessions() {
 
     return (
         <div>

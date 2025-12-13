@@ -1,9 +1,9 @@
-import { SectionTitle} from "../components/SectionTitle";
+import { SectionTitle} from "../../components/SectionTitle";
 
 export function ProfessionalSummary() {
     return (
         <div>
-            <SectionTitle color="[#0D2139]" borderColor="#0D2139" weight="bold" size={4} title="Sobre mim"/>
+            <SectionTitle color="text-[#0D2139]" borderColor="#0D2139" weight="bold" size={4} title="Sobre mim"/>
 
             <p className="pt-4.5">Engenheiro de Software em busca da primeira oportunidade profissional na área de desenvolvimento. Possuo sólida base em JavaScript, HTML e CSS, com certificações nessas tecnologias, e estou me especializando na formação Full Stack, aprimorando minhas habilidades tanto no front-end quanto no back-end. Busco integrar uma equipe onde possa aplicar meus conhecimentos, evoluir com novas tecnologias e contribuir para o desenvolvimento de soluções inovadoras e eficientes.</p>
 

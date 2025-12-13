@@ -7,8 +7,8 @@ import calendarIcon from "../assets/contact/calendar.svg"
 import linkedinIcon from "../assets/contact/linkedin.svg"
 import githubIcon from "../assets/contact/github.svg"
 
-import { SectionTitle} from "../components/SectionTitle"
-import { Contact, type ContactItem } from "../components/Contact" 
+import { SectionTitle} from "../../components/SectionTitle"
+import { Contact, type ContactItem } from "../../components/Contact" 
 
 const contactData: ContactItem[] = [
     { 

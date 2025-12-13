@@ -1,6 +1,6 @@
 import profilePhoto from "../assets/profile.jpg"
 
-export function Profile() {
+export function ProfileSessions() {
     return (
         <div className="w-full flex flex-col justify-center items-center">
 

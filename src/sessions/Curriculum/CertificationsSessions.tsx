@@ -1,6 +1,6 @@
-import { Certifications, type CertificationItem } from "../components/Certifications" 
+import { Certifications, type CertificationItem } from "../../components/Certifications" 
 
-import { SectionTitle} from "../components/SectionTitle"
+import { SectionTitle} from "../../components/SectionTitle"
 
 const certificationsData: CertificationItem[] = [
     { title: "Git e GitHub", description: "compartilhando e colaborando em projetos", data: "Alura – Abril 2025" },
@@ -23,9 +23,9 @@ const certificationsData: CertificationItem[] = [
 export function CertificationsSessions() {
     return (
         <div>
-            <SectionTitle color="[#0D2139]" borderColor="#0D2139" weight="bold" size={4} title="Certificações" />
+            <SectionTitle color="text-[#0D2139]" borderColor="#0D2139" weight="bold" size={4} title="Certificações" />
 
-            <div className="pt-4 grid gap-4.5 w-full lg:grid-cols-2">
+            <div className="pt-4 grid gap-6.5 w-full lg:grid-cols-2">
                 <Certifications certifications={certificationsData}/>
             </div>
         </div>
