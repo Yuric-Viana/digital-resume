@@ -1,7 +1,7 @@
 import { SectionTitle} from "../components/Curriculum/SectionTitle";
-import { HardSkills, type SkillItem } from "../components/Curriculum/HardSkills"
+import { HardSkills } from "../components/Curriculum/HardSkills"
 
-import { hardSkillsData } from "./hardSkill"
+import { hardSkillsData } from "./hardSkills"
 
 export function HardSkillsSessions() {
     return (
