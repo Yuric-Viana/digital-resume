@@ -17,7 +17,6 @@ export function CertificateMain({ imageKey }: CertificateMainProps) {
 
     const keyCandidate = name || imageKey
 
-
     if (!isCertificateKey(keyCandidate)) {
         return (
             <div className="p-8 text-center bg-red-100 border border-red-400 rounded-lg">

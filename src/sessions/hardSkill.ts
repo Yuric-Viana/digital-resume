@@ -1,0 +1,66 @@
+import css from "../assets/languages/css.svg"
+import js from "../assets/languages/javascript.svg"
+import ts from "../assets/languages/typescript.svg"
+import html from "../assets/languages/html.svg"
+
+import react from "../assets/frameworks/react.svg"
+import express from "../assets/frameworks/express.svg"
+import tailwind from "../assets/frameworks/tailwind.svg"
+import prisma from "../assets/frameworks/prisma.svg"
+import jest from "../assets/frameworks/jest.svg"
+
+import git from "../assets/tools/git.svg"
+import vsCode from "../assets/tools/vs-code.svg"
+import intellij from "../assets/tools/intellij.svg"
+import github from "../assets/tools/github.svg"
+
+import database from "../assets/tools-build/database.png"
+import builder from "../assets/tools-build/webpack.svg"
+import node from "../assets/tools-build/nodejs.svg"
+import docker from "../assets/tools-build/docker.svg"
+import vite from "../assets/tools-build/vitejs.svg"
+
+interface SkillCategory {
+    name: string;
+    iconSrc: string;
+    iconAlt: string;
+}
+
+interface HardSkillsData {
+    languagesData: SkillCategory[];
+    frameworksData: SkillCategory[];
+    toolsData: SkillCategory[];
+    toolsBuildData: SkillCategory[];
+}
+
+export const hardSkillsData: HardSkillsData = {
+    languagesData: [ 
+        { name: "HTML", iconSrc: html, iconAlt: "Ícone do HTML" },
+        { name: "CSS", iconSrc: css, iconAlt: "Ícone do CSS" },
+        { name: "Java Script", iconSrc: js, iconAlt: "Ícone do JavaScript" },
+        { name: "Type Script", iconSrc: ts, iconAlt: "Ícone do TypeScript" },
+    ], 
+    
+    frameworksData: [ 
+        { iconSrc: express, iconAlt: "Ícone do Express", name: "Express" },
+        { iconSrc: tailwind, iconAlt: "Ícone do Tailwind", name: "Tailwind" },
+        { iconSrc: react, iconAlt: "Ícone do React", name: "React" },
+        { iconSrc: prisma, iconAlt: "Ícone do Prisma", name: "Prisma" },
+        { iconSrc: jest, iconAlt: "Ícone do Jest", name: "Jest" },
+    ], 
+    
+    toolsData: [ 
+        { iconSrc: git, name: "Git", iconAlt: "Ícone do Git" },
+        { iconSrc: github, name: "Git Hub", iconAlt: "Ícone do Git Hub" },
+        { iconSrc: intellij, name: "Intellij", iconAlt: "Ícone do Intellij" },
+        { iconSrc: vsCode, name: "VS Code", iconAlt: "Ícone do VS Code" },
+    ], 
+    
+    toolsBuildData: [ 
+        { iconSrc: docker, name: "Docker", iconAlt: "Ícone do Docker" },
+        { iconSrc: builder, name: "Webpack", iconAlt: "Ícone do Webpack" },
+        { iconSrc: node, name: "Node.js", iconAlt: "Ícone do Node.js" },
+        { iconSrc: vite, name: "Vite", iconAlt: "Ícone do Vite" },
+        { iconSrc: database, name: "Banco de dados", iconAlt: "Ícone de Banco de dados" },
+    ]
+};
