@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router"
 
-import certificate from "../assets/certificate.svg"
+import certificate from "../../assets/certificate.svg"
+import { allCertificates } from "../certificatesData"
 
 export interface CertificationItem {
     title: string
@@ -8,11 +9,7 @@ export interface CertificationItem {
     data: string
 }
 
-interface CertificationsProps {
-    certifications: CertificationItem[]
-}
-
-export function Certifications({ certifications }: CertificationsProps) {
+export function Certifications() {
     const navigate = useNavigate()
 
     function handleRedirect(title: string) {
@@ -21,17 +18,17 @@ export function Certifications({ certifications }: CertificationsProps) {
 
     return (
         <>
-            {certifications.map((item, index) => (
+            {allCertificates.map((item, index) => (
                 <button
                     key={index}
                     type="button"
-                    className="flex gap-2.5 items-start cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2"
-                    onClick={() => handleRedirect(item.title)}
+                    className="flex gap-2.5 items-center cursor-pointer transition-transform hover:scale-105 bg-[#EFE5EA] rounded-2xl p-2"
+                    onClick={() => handleRedirect(item.id)}
                 >
                     <img src={certificate} alt="Ícone de certificado" />
                     <div>
                         <h5>
-                            <strong>{item.title}:</strong> {item.description}
+                            <strong>{item.name}:</strong> {item.title}
                         </h5>
                         <p>{item.data}</p>
                     </div>

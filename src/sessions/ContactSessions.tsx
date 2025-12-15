@@ -1,14 +1,13 @@
-// ContactSessions.tsx
 
-import cellphoneIcon from "../../assets/contact/cellphone.svg"
-import mapsIcon from "../../assets/contact/location.svg"
-import emailIcon from "../../assets/contact/email.svg"
-import calendarIcon from "../../assets/contact/calendar.svg"
-import linkedinIcon from "../../assets/contact/linkedin.svg"
-import githubIcon from "../../assets/contact/github.svg"
+import cellphoneIcon from "../assets/contact/cellphone.svg"
+import mapsIcon from "../assets/contact/location.svg"
+import emailIcon from "../assets/contact/email.svg"
+import calendarIcon from "../assets/contact/calendar.svg"
+import linkedinIcon from "../assets/contact/linkedin.svg"
+import githubIcon from "../assets/contact/github.svg"
 
-import { SectionTitle} from "../../components/SectionTitle"
-import { Contact, type ContactItem } from "../../components/Contact" 
+import { SectionTitle} from "../components/Curriculum/SectionTitle"
+import { Contact, type ContactItem } from "../components/Curriculum/Contact" 
 
 const contactData: ContactItem[] = [
     { 
@@ -24,7 +23,7 @@ const contactData: ContactItem[] = [
     { 
         src: emailIcon, 
         alt: "Ícone de e-mail", 
-        description: "yuricardosoviana@gmail.com" 
+        description: "yuricardosoviana@gmail.com"
     },
     { 
         src: calendarIcon, 
@@ -34,12 +33,14 @@ const contactData: ContactItem[] = [
     { 
         src: linkedinIcon, 
         alt: "Ícone do linkedin", 
-        description: "https://www.linkedin.com/in/yuri-viana-2a7468357/" 
+        description: "https://www.linkedin.com/in/yuri-viana-2a7468357/",
+        url: "https://www.linkedin.com/in/yuri-viana-2a7468357/" 
     },
     { 
         src: githubIcon, 
         alt: "Ícone do git hub", 
-        description: "https://github.com/Yuric-Viana" 
+        description: "https://github.com/Yuric-Viana", 
+        url: "https://github.com/Yuric-Viana" 
     },
 ];
 

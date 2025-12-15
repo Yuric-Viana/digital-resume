@@ -1,10 +1,10 @@
 import { CurriculumMain } from "../components/Main/CurriculumMain"
-import { Sidebar } from "../components/Sidebar/CurriculumSidebar"
+import { CurriculumSidebar } from "../components/Sidebar/CurriculumSidebar"
 
 export function Resume() {
   return (
     <div className="md:flex">
-      <Sidebar />
+      <CurriculumSidebar />
       <CurriculumMain />
     </div>
   )

@@ -1,9 +1,9 @@
-import cutlery from "../../assets/experiences/cutlery.svg"
-import coin from "../../assets/experiences/coin.svg"
-import truck from "../../assets/experiences/truck.svg"
+import cutlery from "../assets/experiences/cutlery.svg"
+import coin from "../assets/experiences/coin.svg"
+import truck from "../assets/experiences/truck.svg"
 
-import { SectionTitle} from "../../components/SectionTitle";
-import { Experiences, type ExperiencesItem } from "../../components/Experiences";
+import { SectionTitle} from "../components/Curriculum/SectionTitle";
+import { Experiences, type ExperiencesItem } from "../components/Curriculum/Experiences";
 
 const experiencesData: ExperiencesItem[] = [
     { title: "Garçom", alt: "Ícone de talheres", src: cutlery },

@@ -24,5 +24,5 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["src", "src/sessions/Curriculum/ProfessionalSummary.tsx"]
+  "include": ["src", "src/sessions/ProfessionalSummary.tsx"]
 }
