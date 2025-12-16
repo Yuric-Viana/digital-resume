@@ -5,7 +5,6 @@ import close from "../../assets/close.svg"
 
 import { allCertificates, type CertificateItem } from "../certificatesData"
 import { type CertificateImageKey } from "../../assets/certificates/certificateImages";
-import { useState } from "react";
 
 type CertificateModalProps = {
     certificate: CertificateItem

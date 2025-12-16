@@ -1,5 +1,3 @@
-import { useNavigate } from "react-router"
-
 import certificate from "../../assets/certificate.svg"
 import { allCertificates, type CertificateItem } from "../certificatesData"
 import { useEffect, useState } from "react"

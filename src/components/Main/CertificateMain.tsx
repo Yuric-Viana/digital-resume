@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router"
+import { useParams } from "react-router"
 
 import { certificateImages, type CertificateImageKey } from "../../assets/certificates/certificateImages"
 
