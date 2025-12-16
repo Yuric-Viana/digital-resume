@@ -37,7 +37,7 @@ export function CertificateMain({ imageKey }: CertificateMainProps) {
 
             <div className="flex justify-between">
                 <button className="font-bold w-full md:text-left uppercase cursor-pointer" type="button">
-                    <a href={certificate.url}>Ver certificado original</a>
+                    <a href={certificate.url} target="_blank">Ver certificado original</a>
                 </button>
             </div>
         </div>
