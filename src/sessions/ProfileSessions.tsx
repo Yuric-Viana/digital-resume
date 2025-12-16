@@ -14,7 +14,9 @@ export function ProfileSessions() {
                 </div>
             </div>
 
-            <h1 className="font-bold text-center text-2xl text-white pt-4">Yuri Cardoso Viana</h1>
+            <h1 className="font-bold text-center text-2xl text-white pt-4">
+                Yuri Cardoso Viana <strong className="font-bold">(PCD)</strong>
+             </h1>
             <strong className="text-[#d3e4ed] text-center text-base font-light tracking-wide">Engenherio de Software em formação</strong>
         </div>  
     )

@@ -1,13 +1,16 @@
 import { Routes, Route } from "react-router";
-
 import { Resume } from "../pages/Resume";
-import { FullCertificate } from "../pages/FullCertificate";
+import { NotFound } from "../pages/NotFound";
 
 export function AppRoutes() {
     return (
         <Routes>
-            <Route path="/" index element={<Resume />} />
-            <Route path="/full-certificate/:name" element={<FullCertificate />} />
+            <Route path="/" element={<Resume />}>   
+                <Route index element={null} /> 
+                <Route path="certificate/:slug" element={null} /> 
+            </Route>
+
+            <Route path="*" element={<NotFound />}/>
         </Routes>
     )
 }

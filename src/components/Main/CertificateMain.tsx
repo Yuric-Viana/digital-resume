@@ -12,7 +12,6 @@ type CertificateMainProps = {
 }
 
 export function CertificateMain({ imageKey }: CertificateMainProps) {
-    const navigate = useNavigate()
     const { name } = useParams()
 
     const keyCandidate = name || imageKey
@@ -39,10 +38,6 @@ export function CertificateMain({ imageKey }: CertificateMainProps) {
             <div className="flex justify-between">
                 <button className="font-bold w-full md:text-left uppercase cursor-pointer" type="button">
                     <a href={certificate.url}>Ver certificado original</a>
-                </button>
-
-                <button onClick={() => navigate(-1)} className="font-bold text-2xl text-end w-full cursor-pointer" type="button">
-                    Voltar
                 </button>
             </div>
         </div>
