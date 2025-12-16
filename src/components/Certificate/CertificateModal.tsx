@@ -24,7 +24,7 @@ export function CertificateModal({ onClose, certificate, onCertificateChange }: 
 
     return (
         <div className="fixed inset-0 w-full bg-black/50 flex items-center justify-center">
-            <div className="max-w-2xl lg:max-w-4xl w-full h-[100vh] md:h-[75vh] bg-white rounded-xl shadow-2xl overflow-hidden" onClick={(e) => e.stopPropagation()}>
+            <div className="max-w-2xl lg:max-w-4xl w-full h-max md:h-[75vh] bg-white rounded-xl shadow-2xl overflow-hidden" onClick={(e) => e.stopPropagation()}>
                 <div className="p-2 grid grid-rows-[auto_auto_auto] md:grid-rows-[auto_1fr] grid-cols-1 md:grid-cols-3 h-80vh">
                     <header className="flex justify-between border-b-2 col-span-1 md:col-span-3">
                         <h2 className="text-xl font-semibold">Certificado: {certificate.name}</h2>
