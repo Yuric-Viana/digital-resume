@@ -1,7 +1,7 @@
 import { SectionTitle} from "../components/Curriculum/SectionTitle";
 import { HardSkills } from "../components/Curriculum/HardSkills"
 
-import { hardSkillsData } from "./hardSkills"
+import { hardSkillsData } from "../utils/hardSkills"
 
 export function HardSkillsSessions() {
     return (

@@ -3,7 +3,7 @@ import { CertificateMain } from "../Main/CertificateMain";
 
 import close from "../../assets/close.svg"
 
-import { allCertificates, type CertificateItem } from "../certificatesData"
+import { allCertificates, type CertificateItem } from "../../utils/certificatesData"
 import { type CertificateImageKey } from "../../assets/certificates/certificateImages";
 
 type CertificateModalProps = {

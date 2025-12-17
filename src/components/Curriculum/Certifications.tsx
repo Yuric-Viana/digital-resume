@@ -1,5 +1,5 @@
 import certificate from "../../assets/certificate.svg"
-import { allCertificates, type CertificateItem } from "../certificatesData"
+import { allCertificates, type CertificateItem } from "../../utils/certificatesData"
 import { useEffect, useState } from "react"
 import { CertificateModal } from "../Certificate/CertificateModal"
 

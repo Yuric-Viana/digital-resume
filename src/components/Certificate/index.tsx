@@ -1,5 +1,5 @@
 import { type CertificateImageKey } from "../../assets/certificates/certificateImages"
-import { type CertificateItem } from "../certificatesData"
+import { type CertificateItem } from "../../utils/certificatesData"
 
 import certificateIcon from "../../assets/certificate.svg"
 
